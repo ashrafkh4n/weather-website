@@ -1,0 +1,80 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 800px;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #507bcc;
+    font-size: 64px;
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+header a {
+    color: #707070;
+    margin-right: 16px;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+footer {
+    border-top: 1px solid #cccccc;
+    padding: 16px;
+}
+
+.peaky {
+    height: 400px;
+}
+
+.navbar {
+    margin-bottom: 30px;
+    border-top : 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    padding: 8px;
+}
+input {
+    padding: 8px;
+    width: 80%;
+
+}
+
+button {
+    padding: 8px;
+}
+
+#weather-logo {
+    height: 96px;
+    margin-right: 16px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        margin: 0 16px;
+    }
+
+    h1 {
+        font-size: 48px;
+    }
+    #weather-logo {
+        height: 48px;
+    }
+    input {
+        padding: 8px;
+        width: 60%;
+    }
+    header a {
+        color: #707070;
+        margin-right: 16px;
+        text-decoration: none;
+        font-size: 16px;
+    }
+
+}
+
+
